@@ -365,3 +365,16 @@ main.home {
 .section-title {
   color: white;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
